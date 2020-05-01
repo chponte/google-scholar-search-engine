@@ -16,5 +16,20 @@
             "is_default": false,
             "encoding": "UTF-8"
         }
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "icons/16.png",
+        "24": "icons/24.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png"
     }
 }
