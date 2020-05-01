@@ -12,7 +12,7 @@
             "name": "Google Scholar",
             "search_url": "https://scholar.google.com/scholar?q={searchTerms}",
             "keyword": "scholar",
-            "favicon_url": "https://scholar.google.com/favicon.ico",
+            "favicon_url": "icons/48.png",
             "is_default": false,
             "encoding": "UTF-8"
         }
@@ -31,5 +31,8 @@
         "24": "icons/24.png",
         "32": "icons/32.png",
         "48": "icons/48.png"
-    }
+    },
+    "web_accessible_resources": [
+        "icons/48.png"
+    ]
 }
