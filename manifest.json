@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Google Scholar search engine",
+    "description": "Adds a search engine that searches scholar.google.com",
+    "developer": {
+        "name": "Christian Ponte",
+        "url": "https://github.com/chponte/google-scholar-search-engine"
+    },
+    "version": "1.0",
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Google Scholar",
+            "search_url": "https://scholar.google.com/scholar?q={searchTerms}",
+            "keyword": "scholar",
+            "favicon_url": "icons/48.png",
+            "is_default": false,
+            "encoding": "UTF-8"
+        }
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "16": "icons/16.png",
+        "24": "icons/24.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png"
+    },
+    "web_accessible_resources": [
+        "icons/48.png"
+    ]
+}
