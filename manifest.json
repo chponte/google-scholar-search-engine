@@ -2,7 +2,10 @@
     "manifest_version": 2,
     "name": "Google Scholar search engine",
     "description": "Adds a search engine that searches scholar.google.com",
-    "author": "Christian Ponte",
+    "developer": {
+        "name": "Christian Ponte",
+        "url": "https://github.com/chponte/google-scholar-search-engine"
+    },
     "version": "1.0",
     "chrome_settings_overrides": {
         "search_provider": {
