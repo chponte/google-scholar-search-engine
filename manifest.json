@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Google Scholar search engine",
+    "description": "Adds a search engine that searches scholar.google.com",
+    "author": "Christian Ponte",
+    "version": "1.0",
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Google Scholar",
+            "search_url": "https://scholar.google.com/scholar?q={searchTerms}",
+            "keyword": "scholar",
+            "favicon_url": "https://scholar.google.com/favicon.ico",
+            "is_default": false,
+            "encoding": "UTF-8"
+        }
+    }
+}
