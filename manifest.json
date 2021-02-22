@@ -6,7 +6,7 @@
         "name": "Christian Ponte",
         "url": "https://github.com/chponte/google-scholar-search-engine"
     },
-    "version": "1.0",
+    "version": "1.2",
     "chrome_settings_overrides": {
         "search_provider": {
             "name": "Google Scholar",
@@ -18,8 +18,7 @@
         }
     },
     "permissions": [
-        "contextMenus",
-        "tabs"
+        "contextMenus"
     ],
     "background": {
         "scripts": [
